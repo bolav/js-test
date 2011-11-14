@@ -61,10 +61,6 @@ function setup(obj) {
         window.diag = function(msg) {
             console.log("# " + msg);
         }
-        window.alert = function(msg) {
-            console.log("ALERT!" + msg);
-            window.displayedAlert = msg;
-        }
         window.addListener = function(target, name, func) {
             if (typeof target[name] === 'function') {
                 var orig = target[name];

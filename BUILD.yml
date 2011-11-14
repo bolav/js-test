@@ -1,4 +1,4 @@
 name: js-test
 version: 0.001
-test-requires:
+test_requires:
     - startsiden-test-javascript

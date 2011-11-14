@@ -1,4 +1,4 @@
-plan(1);
+plan(8);
 test("a basic test example", function() {
   ok( true, "this test is fine" );
   var value = "hello";
